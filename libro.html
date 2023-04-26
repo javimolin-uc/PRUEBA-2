@@ -39,7 +39,7 @@
                          $("section").append("<h1>" + data[n].name + "</h1><h4>" + data[n].director + " (" + data[n].year + ')</h4><img src="images/' + data[n].pic_lg + '"><p>' + data[n].description + '</p><h3>¡Qué esperas para leerme!</h3><p>No lo pienses más, compra el libro en el siguiente <a href="' + data[n].trailer + '" target="_blank">enlace.</a><p>');
 
                     } else {
-                        document.querySelector("section").innerHTML = '<h1>Algo salió mal y llegaste al punto de inicio de Narnia.</h1><h4>Por favor, vuelve a escoger cualquiera de las <a href="libros.html">películas</a></h4>';
+                        document.querySelector("section").innerHTML = '<h1>Algo salió mal y llegaste al punto de inicio de Narnia.</h1><h4>Por favor, vuelve a escoger cualquiera de los <a href="libros.html">libros.</a></h4>';
                         document.body.style.backgroundPosition = "bottom right";
                         document.body.style.backgroundImage = 'url("images/error.jpg")';
                         document.body.style.backgroundRepeat = "no-repeat";
